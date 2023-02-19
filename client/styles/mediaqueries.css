@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@media screen and (max-width: 800px) {
+  body {
+    padding: 0;
+    margin: 0;
+    background-image: none;
+    box-sizing: border-box;
+  }
+  .main {
+    width: 700px;
+  }
+  .main .navbar {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .searchInput {
+    border: 1px solid black;
+    width: 70%;
+  }
+  .searchInput .input,
+  .input input {
+    font-size: 2rem;
+  }
+  .content_container .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card .card_image img {
+    height: 650px;
+  }
+  .modelDetail a {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    font-family: "Permanent Marker", cursive;
+  }
+  .modelDetail button {
+    font-size: 0.7em;
+    margin: 10px;
+  }
+
+  .buttonContainer .button {
+    padding: 2rem;
+    font-size: 1.8em;
+  }
+
+  /* SUBSCRIBE PAGE */
+  .pregunta {
+    font-size: 1.9rem;
+  }
+
+  .iconsContainer a {
+    margin: 0 3rem;
+    font-size: 4rem;
+  }
+
+  .profileContainer .profileContent {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+  }
+
+  .profileContent .profileImage img {
+    height: 100%;
+  }
+  .profileContent .profileImage {
+    padding: 0;
+  }
+  .profileData {
+    height: auto;
+  }
+  .profileData h1 {
+    font-size: 3.5rem;
+    margin: 0;
+  }
+  .socialmedia a {
+    font-size: 4rem;
+  }
+  .socialmedialinks {
+    padding: 10px;
+  }
+  .profileData p,
+  a {
+    font-size: 1.5rem;
+  }
+  .profileData button {
+    padding: 10px 40px;
+    margin: 0;
+  }
+
+  .backgroundForm {
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .FormContainer {
+    padding: 0;
+  }
+  .formDiv {
+    padding: 0;
+
+    height: auto;
+  }
+  .formDiv label {
+    font-size: 2.2rem;
+  }
+  .formDiv input[type="file"] {
+    font-size: 2rem;
+    padding: 0;
+  }
+  .formDiv input {
+    font-size: 30px;
+  }
+  .checkboxses {
+    font-size: 30px;
+    display: block;
+    margin: 10px;
+  }
+  .formDiv button {
+    font-size: 1.9em;
+  }
+  .Toastify {
+    font-size: 2rem;
+  }
+}
